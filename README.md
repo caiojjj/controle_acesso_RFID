@@ -2,7 +2,12 @@
 
 > O projeto concite em controlar o acesso de um determinado local, sendo o acesso liberado apenas para os funcionários que estão cadastrados no sistema.
 
-> O código fonte aqui contempla apenas a parte de codificação e montagem do circuito do arduino R3. O software de controle foi desenvolvido na linguagem C# usando a IDE visual studio 2019 community e esta disponível em outro repositório.
+> O código fonte e instruções aqui contempla apenas a parte de codificação e montagem do circuito do arduino R3. O software de controle foi desenvolvido na linguagem C# usando a IDE visual studio 2019 community e esta disponível em outro repositório.
+
+## Video demostrativo do projeto
+
+https://www.youtube.com/watch?v=jrNVpYFj1XA&ab_channel=CaioJunior
+
 ## Montagem
 
 ### Pinos leitor RFID X Arduino
@@ -32,7 +37,7 @@ SPI SCK   |  SCK        |   13 / ICSP-3
   DI         |   A4
   RO         |   A5
 
-### Pinos ReleA TTL X Arduino
+### Pinos Rele X Arduino
    Rele      |   Arduino | Função
  ----------- | --------- | ------------------
   IN         |   A0      | Ativar eletroíman
